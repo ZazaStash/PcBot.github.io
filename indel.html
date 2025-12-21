@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelNow — Путешествуй с нами</title>
+
+    <!-- Подключение CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="header-container">
+        <strong>TravelNow</strong>
+        <nav>
+            <ul>
+                <li><a href="#dest">Направления</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+    <section class="hero">
+        <h1>Открой мир вместе с нами</h1>
+        <p>Лучшие путешествия, новые эмоции и незабываемые впечатления</p>
+        <button>Начать путешествие</button>
+    </section>
+
+    <section id="dest">
+        <h2>Популярные направления</h2>
+        <div class="destinations">
+            <article class="card">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Море">
+                <h3>Мальдивы</h3>
+                <p>Белоснежные пляжи и лазурная вода.</p>
+            </article>
+
+            <article class="card">
+                <img src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad" alt="Горы">
+                <h3>Швейцария</h3>
+                <p>Горы, озера и свежий воздух.</p>
+            </article>
+
+            <article class="card">
+                <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d" alt="Город">
+                <h3>Нью-Йорк</h3>
+                <p>Город, который никогда не спит.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Почему выбирают нас</h2>
+        <div class="advantages">
+            <div class="advantage">
+                <strong>Опыт</strong>
+                <p>Более 10 лет в туризме</p>
+            </div>
+            <div class="advantage">
+                <strong>Поддержка</strong>
+                <p>24/7 на связи</p>
+            </div>
+            <div class="advantage">
+                <strong>Цена</strong>
+                <p>Лучшие предложения</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Свяжитесь с нами</h2>
+        <form>
+            <label for="name">Имя</label>
+            <input id="name" type="text" placeholder="Ваше имя" required>
+
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="example@mail.com" required>
+
+            <label for="message">Сообщение</label>
+            <textarea id="message" placeholder="Ваш вопрос"></textarea>
+
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2025 TravelNow. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
